@@ -4,7 +4,7 @@ default = "us-east-1"
 
 variable= "key_name"{
 description= "ssh key for connection"
-default= "EBS"
+default= "terraproject"
 }
 variable= "instance-type" {
 description= "instance type for ec2"
