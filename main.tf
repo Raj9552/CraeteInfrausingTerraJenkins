@@ -2,7 +2,7 @@ provider "aws"{
 region=  var.aws_region
 }
 
-resource "aws-security_group" "my-security-group"{
+resource "aws-security_group" "launch-wizard-6"{
 name= var.security_group
 description= "security group for ec2 instance"
 
