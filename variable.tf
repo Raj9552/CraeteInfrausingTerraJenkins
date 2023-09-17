@@ -56,20 +56,3 @@ terraform= "true"
 }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
--s3-bucket
