@@ -3,7 +3,7 @@ default = "us-east-1"
 }
 
 variable "key_name"{
-description= "ssh key for connection"
+description= ""
 default= "terraform"
 }
 
@@ -13,17 +13,17 @@ default= "t2.micro"
 }
 
 variable "security_group"{
-description= "security group for infra creation"
+description= ""
 deafult= "launch-wizard-6"
 }
 
 variable "tag_name"{
-description= "name for ec2 instance'
+description= ""
 default= "my-ec2_instance"
 }
 
-variable "ami"{
-description= "ami ubuntu for infra"
+variable "ami_id"{
+description= ""
 default= "ami-053b0d53c279acc90"
 }
 
@@ -35,7 +35,7 @@ default= "true"
 
 variable "act"{
 type= string
-description= "default to private"
+description= ""
 default= "private"
 }
 
@@ -49,7 +49,7 @@ default= "mys3bket983732"
 
 variable "tags"{
 type= map
-description =" mapping of tags to bucket"
+description =""
 default={
 environment = "DEV"
 terraform= "true"
