@@ -22,7 +22,7 @@ description= "name for ec2 instance'
 default= "my-ec2_instance"
 }
 
-variable "ami_id"{
+variable "ami"{
 description= "ami ubuntu for infra"
 default= "ami-053b0d53c279acc90"
 }
