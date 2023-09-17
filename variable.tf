@@ -4,7 +4,7 @@ default = "us-east-1"
 
 variable= "key_name"{
 description= "ssh key for connection"
-default= "terraproject"
+default= "terraform"
 }
 variable= "instance-type" {
 description= "instance type for ec2"
@@ -13,7 +13,7 @@ default= "t2.micro"
 
 variable "security_group"{
 description= "security group for infra creation"
-deafult= " InfraSecurity"
+deafult= "launch-wizard-6"
 }
 
 variable "tag_name"{
