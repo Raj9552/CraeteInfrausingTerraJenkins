@@ -22,7 +22,7 @@ cider_blocks= ["0.0.0.0./0"]
 tags={
 name=" var.security_group"
 }
-}
+
 
 
 resource "aws-instance" "myfirstInstance"{
@@ -37,7 +37,7 @@ name= var.tag_name
 
 
 resource "aws_eip" "myfirstEIP"{
-VPC = true
+vpc = true
 instance= aws_instance.myfirstInstance.id
 tags= {
 name= "my-elastic-IP"
