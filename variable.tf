@@ -2,12 +2,12 @@ variable "aws_region"{
 default = "us-east-1"
 }
 
-variable= "key_name"{
+variable "key_name"{
 description= "ssh key for connection"
 default= "terraform"
 }
 
-variable= "instance-type" {
+variable "instance-type" {
 description= "instance type for ec2"
 default= "t2.micro"
 }
