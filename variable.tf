@@ -44,7 +44,7 @@ default= "private"
 variable "bucket_prefix"{
 type= string
 description= "creating bucket name with prefixed suffix"
-default= "my-s3-bucket"
+default= "mys3bket983732"
 }
 
 variable "tags"{
