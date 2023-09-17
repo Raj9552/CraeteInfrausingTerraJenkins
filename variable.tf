@@ -33,7 +33,7 @@ description= "version state"
 default= "true"
 }
 
-variable "act'{
+variable "act"{
 type= string
 description= "default to private"
 default= "private"
@@ -51,7 +51,7 @@ variable "tags"{
 type= map
 description =" mapping of tags to bucket"
 default={
-environment "DEV"
+environment = "DEV"
 terraform= "true"
 }
 }
