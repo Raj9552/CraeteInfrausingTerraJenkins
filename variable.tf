@@ -14,7 +14,7 @@ default= "t2.micro"
 
 variable "security_group"{
 description= ""
-deafult= "launch-wizard-6"
+deafult= ""sg-050dfd895231672c4"
 }
 
 variable "tag_name"{
