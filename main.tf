@@ -23,6 +23,7 @@ cider_blocks= ["0.0.0.0./0"]
 tags={
 name=" var.security_group"
 }
+}
 
 
 
